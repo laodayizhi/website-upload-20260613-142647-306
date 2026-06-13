@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>影视搜索 - 国产影视免费高清在线 - 最新热播大片观看站-影视排行榜</title>
+    <meta name="description" content="搜索国产影视、电影、剧集、年份、地区、类型和标签，快速进入影片详情页。" />
+    <meta name="keywords" content="国产影视免费高清在线 - 最新热播大片观看站-影视排行榜,国产,视频,免费,在线观看,高清,影视大全,影视搜索,电影搜索,剧集搜索" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="assets/original.css" />
+    <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-shell">
+        <a class="brand" href="index.html" aria-label="国产影视首页">
+            <span class="brand-mark">影</span>
+            <span class="brand-text">国产影视</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+                    <a class="nav-link" href="index.html">首页</a>
+                    <a class="nav-link" href="categories.html">分类</a>
+                    <a class="nav-link" href="ranking.html">热播榜</a>
+                    <a class="nav-link" href="sitemap.html">片库索引</a>
+                    <a class="nav-link active" href="search.html">搜索</a>
+        </nav>
+        <form class="header-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影视..." aria-label="搜索影视" />
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+        <nav aria-label="移动端导航">
+                <a class="nav-link" href="index.html">首页</a>
+                <a class="nav-link" href="categories.html">分类</a>
+                <a class="nav-link" href="ranking.html">热播榜</a>
+                <a class="nav-link" href="sitemap.html">片库索引</a>
+                <a class="nav-link active" href="search.html">搜索</a>
+        </nav>
+        <form class="mobile-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索片名、题材、地区" aria-label="移动端搜索" />
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+</header>
+
+<main>
+    <section class="page-hero search-hero">
+        <div class="page-hero-content">
+            <span class="eyebrow">Search</span>
+            <h1>搜索影视内容</h1>
+            <p>输入片名、地区、年份、类型、题材或标签，快速找到对应影片详情页。</p>
+            <form class="big-search" action="search.html" method="get">
+                <input id="searchInput" type="search" name="q" placeholder="例如：悬疑、爱情、2024、韩国" />
+                <button type="submit">搜索</button>
+            </form>
+        </div>
+    </section>
+    <section class="content-section">
+        <div class="section-heading">
+            <div>
+                <h2>搜索结果</h2>
+                <p id="searchSummary">请输入关键词开始搜索。</p>
+            </div>
+        </div>
+        <div id="searchResults" class="movie-grid"></div>
+    </section>
+</main>
+<script src="assets/search-data.js"></script>
+
+<footer class="site-footer">
+    <div class="footer-shell">
+        <div>
+            <a class="footer-brand" href="index.html">国产影视</a>
+            <p>聚合电影、剧集与多类型片库，提供清晰的分类入口、热播榜单和影片详情。</p>
+        </div>
+        <div class="footer-links">
+            <a href="index.html">首页</a>
+            <a href="categories.html">分类</a>
+            <a href="ranking.html">热播榜</a>
+            <a href="sitemap.html">片库索引</a>
+            <a href="search.html">搜索</a>
+        </div>
+        <div class="footer-cats">
+            <a href="category-new-hot.html">最新热播</a> <a href="category-quality-choice.html">口碑精选</a> <a href="category-classic-review.html">经典回看</a> <a href="category-high-energy.html">高能剧情</a> <a href="category-weekend-cinema.html">周末影院</a> <a href="category-chinese-collection.html">华语片库</a> <a href="category-asia-theater.html">亚洲剧场</a> <a href="category-global-selection.html">欧美佳作</a> <a href="category-popular-list.html">人气榜单</a> <a href="category-editor-picks.html">片单推荐</a>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"></script>
+<script src="assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
